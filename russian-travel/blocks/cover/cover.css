@@ -1,0 +1,53 @@
+.cover {
+    position: relative;
+    background-image: url(../../images/cover/__background.png);
+    width: 1184px;
+    height: 740px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 92px;
+    margin-bottom: 92px;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+}
+
+
+@media screen and (max-width:1279px) {
+
+.cover {
+    width: 1024px;
+    height: 640px;
+    margin-bottom: 92px;
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-size: cover;
+}
+
+}
+
+@media screen and (max-width: 1023px) {
+
+.cover{
+    width: 768px;
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+}
+    
+
+@media screen and (max-width: 767px) {
+
+.cover {
+    max-width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+}
