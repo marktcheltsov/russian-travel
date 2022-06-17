@@ -1,0 +1,36 @@
+
+.cover__text-block {
+    width: 560px;
+    height: 250px;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+    align-self: center;
+}
+
+@media screen and (max-width:1279px) {
+
+.cover__text-block {
+    width: 560px;
+    height: 250px;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 1023px) {
+
+.cover__text-block {
+    width: 560px;
+    height: 250px;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 767px) {
+
+.cover__text-block {
+    width: 288px;
+    height: 134px;
+    margin: 0 auto;
+}
+}
